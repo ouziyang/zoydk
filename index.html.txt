@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物联网交通网络接收端</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .module {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 30%;
+        }
+        h2 {
+            color: #333;
+        }
+        .chart {
+            height: 200px;
+            background: #e9ecef;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>物联网交通网络接收端</h1>
+</header>
+
+<div class="container">
+    <div class="module">
+        <h2>实时交通状态</h2>
+        <div class="chart">流量图表</div>
+        <div class="chart">速度图表</div>
+        <div class="chart">拥堵情况</div>
+    </div>
+
+    <div class="module">
+        <h2>历史数据分析</h2>
+        <div class="chart">历史流量统计</div>
+        <div class="chart">事故记录</div>
+    </div>
+
+    <div class="module">
+        <h2>通知与警报</h2>
+        <p>最新通知:</p >
+        <ul>
+            <li><i class="fas fa-exclamation-triangle"></i> 道路封闭：市中心路段</li>
+            <li><i class="fas fa-car-crash"></i> 交通事故：高架桥下</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 物联网交通网络</p >
+</footer>
+
+</body>
+</html>
